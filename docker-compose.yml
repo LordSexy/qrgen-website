@@ -1,0 +1,5 @@
+services:
+  qrgen-website:
+    image: lordsexy/qrgen-website:v2
+    ports:
+      - "13333:80"
